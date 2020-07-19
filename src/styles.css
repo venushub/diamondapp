@@ -1,0 +1,53 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 1em;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.squares-con {
+  display: grid;
+  grid-template-columns: repeat(8, 10vw);
+  grid-gap: 5px;
+}
+
+.square {
+  height: 10vw;
+  border: 1px solid maroon;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  background: none;
+}
+
+.my-button {
+  background: rgb(255, 244, 183);
+  font-weight: bold;
+  padding: 0.2em 1em;
+  font-size: 1.2em;
+  margin-left: 1em;
+}
+
+.df {
+  display: flex;
+}
+
+.ac {
+  align-items: center;
+}
+
+.jc {
+  justify-content: center;
+}
+
+.diamond {
+  color: rgb(51, 207, 207);
+}
